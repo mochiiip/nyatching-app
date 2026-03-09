@@ -11,7 +11,7 @@ for _, cat in cats.iterrows():
     st.image("images/" + cat["image"], width=300)
 
     st.write("年齢:", cat["age"])
-    st.write("性別:", cat["sex"])
+    st.write("性別:", cat["gender"])
     st.write("性格:", cat["personality"])
     st.write("人慣れ:", cat["friendly"])
     st.write("お留守番OK:", cat["alone_ok"])
