@@ -12,7 +12,6 @@ for _, cat in cats.iterrows():
 
     st.write("年齢:", cat["age"])
     st.write("性別:", cat["gender"])
-    st.write("性格:", cat["personality"])
     st.write("人慣れ:", cat["friendly"])
     st.write("お留守番OK:", cat["alone_ok"])
     st.write("子どもOK:", cat["kids_ok"])
